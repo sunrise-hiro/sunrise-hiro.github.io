@@ -377,6 +377,28 @@ footer{background:#251F1A}
   .hero h1{font-size:clamp(28px,8vw,33px)}
   .featured h2{font-size:25px}
 }
+
+/* Ver11.2: smartphone text readability from the brand introduction onward.
+   No changes to desktop styles, imagery, links, wording or font families. */
+@media (max-width:600px){
+  #featured .intro, #featured .collection-card p{font-size:16px;line-height:1.9}
+  #featured .collection-link{font-size:16px}
+  #products .intro{font-size:16px;line-height:1.9}
+  #products .product-tools label, #products .product-tools span{font-size:16px}
+  #products .content p{font-size:16px;line-height:1.85}
+  #products .content h3{font-size:19px}
+  #products .content .btn{font-size:15px}
+  #products .notice{font-size:14px;line-height:1.85}
+  #business .intro, #business .business-closing,
+  #partners .content p, #wholesale-guide .intro,
+  #wholesale-guide .content p, #operator-info .intro,
+  #contact p{font-size:16px;line-height:1.9}
+  #business .content p{font-size:16px;line-height:1.9}
+  #operator-info .profile-grid dt, #operator-info .profile-grid dd{font-size:15px;line-height:1.75}
+  #operator-info .profile-note{font-size:15px;line-height:1.85}
+  #wholesale-guide .notice{font-size:14px;line-height:1.85}
+  #partners .content .btn, #wholesale-guide .btn, #contact .btn{font-size:15px}
+}
 </style>
 <script type="application/ld+json">
 {
