@@ -345,6 +345,30 @@ footer{background:#251F1A}
   header .mobile-menu nav a{display:block;width:100%;box-sizing:border-box;text-align:left;white-space:normal;overflow-wrap:anywhere;color:#251f1a}
 }
 @media(max-width:360px){header .head .brand-logo{width:min(185px,calc(100vw - 145px))}}
+
+/* Ver11.0: mobile readability and natural Japanese line wrapping.
+   Desktop layout, typography families, imagery, links and product data are unchanged. */
+@media (max-width:600px){
+  .hero h1{font-size:clamp(30px,8.2vw,42px);line-height:1.48;letter-spacing:.015em;overflow-wrap:normal;word-break:keep-all}
+  .hero .lead{font-size:15px;line-height:1.9;overflow-wrap:normal;word-break:normal}
+  .hero .actions{align-items:stretch}
+  .hero .actions .btn{max-width:100%;font-size:13px;line-height:1.5;text-align:center;white-space:normal}
+  .featured h2{font-size:clamp(25px,7vw,32px);line-height:1.55;letter-spacing:.015em;overflow-wrap:normal;word-break:normal}
+  .featured .intro{font-size:14px;line-height:1.85}
+  .featured .collection-card h3{font-size:clamp(17px,5vw,21px);line-height:1.55;overflow-wrap:normal;word-break:normal}
+  #products h2{font-size:clamp(27px,7vw,34px)}
+  #products .intro{font-size:14px;line-height:1.85;overflow-wrap:normal;word-break:normal}
+  #products #brand-products,#products #select-products{font-size:clamp(21px,6vw,26px);line-height:1.5;overflow-wrap:normal;word-break:normal}
+  #products .collection-reset{gap:10px}
+  #products .collection-reset .btn,#products>.wrap>p>.btn{max-width:100%;white-space:normal;text-align:center;font-size:14px}
+  #products .content h3{overflow-wrap:normal;word-break:normal}
+  #products .content .btn{font-size:13px;line-height:1.6}
+}
+@media (max-width:380px){
+  .hero .actions .btn{width:100%}
+  .hero h1{font-size:clamp(28px,8vw,33px)}
+  .featured h2{font-size:25px}
+}
 </style>
 <script type="application/ld+json">
 {
